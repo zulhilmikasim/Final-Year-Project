@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="320dp"
+    android:layout_height="250dp"
+    android:background="#C2185B"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="140dp"
+        android:background="#C2185B"
+        android:src="@drawable/warning"
+        android:adjustViewBounds="true"
+        android:maxWidth="42dp"
+        android:maxHeight="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#C2185B"
+        android:text="Sorry, your seat selection exceed your number of passenger you have choosen"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        >
+
+        <Button
+            android:text="Change seat"
+            android:layout_width="0sp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNo"
+           />
+        <Button
+            android:text="Go to Payment"
+            android:layout_width="0sp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnYes"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.user.Ticket.OneWay"
+    android:background="#F48FB1"
+    android:layout_marginTop="?attr/actionBarSize">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#fff">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "From"
+                    android:paddingLeft="14dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"/>
+                <AutoCompleteTextView
+                    android:id="@+id/edOrigin"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint=" Origin"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_gravity="center"
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/building"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text = "To"
+                    android:paddingLeft="14dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"/>
+
+                <AutoCompleteTextView
+                    android:id="@+id/edDestination"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:ems="10"
+                    android:hint=" Destination"
+                    android:inputType="text"
+                    android:layout_marginBottom="10dp"
+                    android:drawableLeft="@drawable/building"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Journey Date"
+                android:paddingLeft="14dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/eddate1"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:ems="10"
+                android:hint=" Date"
+                android:inputType="date"
+                android:focusable="false"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/calendaricon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Number of Pax"
+                android:paddingLeft="14dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:spinnerMode="dropdown"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:entries="@array/pax"
+
+                />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btSearch"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Search Bus"
+            android:background="@drawable/btn_border"
+            android:drawableRight="@drawable/search"
+            />
+    </LinearLayout>
+
+</FrameLayout>

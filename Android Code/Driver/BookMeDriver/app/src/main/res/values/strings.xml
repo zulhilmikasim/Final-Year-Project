@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BookMeDriver</string>
+    <string name="user_login">User Login</string>
+    <string name="enter_login_email">Enter email</string>
+    <string name="enter_login_password">Enter password</string>
+    <string name="signin">SignIn</string>
+</resources>

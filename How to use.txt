@@ -1,0 +1,11 @@
+How to use the BookMe Bus Ticketing System
+
+Requirement
+1. 2 android devices that has android version 4.0 and above.
+2. the android devices must have NFC capabilities in order to use certain function.
+
+Steps to use
+1. Install BookMeBusDriver.apk and BookMeUser.apk on seperate android devices
+2. Run both application and follow the instruction on the report that i'll already provided.
+3. For BookMeAdmin, it is a web system that implement CRUD function for the Admin
+4. All of the application using Firebase Database as System Database.

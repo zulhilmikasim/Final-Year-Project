@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.user.Notification.RatingActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi There! We Already Arrived"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="center">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Arrived at "
+               android:textSize="15dp"
+               android:padding="5dp"
+               android:textStyle="bold"
+               />
+
+           <TextView
+               android:id="@+id/destTv"
+               android:layout_centerHorizontal="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Destination"
+               android:textSize="15dp"
+               android:textAllCaps="true"
+               android:textStyle="bold|italic"/>
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Depart From"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/orgTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Origin"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:textStyle="bold|italic"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_rect_shape"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Rate Our Service"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <RatingBar
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:layout_marginBottom="10dp"
+            android:theme="@style/RatingBar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FF4081">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thank You!"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:lines="3"
+            android:hint="Add your thought here..."
+            android:textColor="#000"
+            android:background="@drawable/rectangle"
+            android:layout_marginTop="20dp"
+            android:id="@+id/edComment"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:onClick="rateMe"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_submit"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

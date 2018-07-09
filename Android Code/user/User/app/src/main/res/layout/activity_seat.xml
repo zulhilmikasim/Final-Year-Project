@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+    <View
+        android:id="@+id/busDeckSelectionMargin"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#ffdddddd" />
+
+    <RelativeLayout
+        android:id="@+id/seatSelectionHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/busDeckSelectionMargin" >
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/seatSelectionHeaderMargin"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_below="@+id/seatSelectionHeader"
+        android:background="#ffdddddd" />
+
+    <RelativeLayout
+        android:id="@+id/seatLayoutScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomBarSeatSelection"
+        android:layout_below="@+id/seatSelectionHeaderMargin"
+        android:background="#FFF" >
+
+        <RelativeLayout
+            android:id="@+id/scrollableLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/seatLegendLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginTop="5.0dip" >
+
+                <RelativeLayout
+                    android:id="@+id/availableImageLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" >
+
+                    <ImageView
+                        android:id="@+id/availableImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10.0dip"
+                        android:rotation="90.0"
+                        android:src="@drawable/seat_layout_tab_nor_avl" />
+
+                    <TextView
+                        android:id="@+id/availableText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5.0dip"
+                        android:layout_toRightOf="@+id/availableImage"
+                        android:text="available"
+                        android:textSize="12.0sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bookedImageLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/availableImageLayout" >
+
+                    <ImageView
+                        android:id="@+id/bookedImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10.0dip"
+                        android:rotation="90.0"
+                        android:src="@drawable/seat_layout_tab_nor_bkd" />
+
+                    <TextView
+                        android:id="@+id/bookedText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5.0dip"
+                        android:layout_toRightOf="@+id/bookedImage"
+                        android:text="booked"
+                        android:textSize="12.0sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/selectedImageLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/bookedImageLayout" >
+
+                    <ImageView
+                        android:id="@+id/selectedImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10.0dip"
+                        android:rotation="90.0"
+                        android:src="@drawable/seat_layout_tab_nor_std" />
+
+                    <TextView
+                        android:id="@+id/selectedText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5.0dip"
+                        android:layout_toRightOf="@+id/selectedImage"
+                        android:text="selected"
+                        android:textSize="12.0sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/seatLayoutLowerMain"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/seatLegendLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10.0dip"
+                android:paddingBottom="5.0dp"
+                android:paddingRight="5.0dp" >
+
+                <GridView
+                    android:id="@+id/gridView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="4dp"
+                    android:columnWidth="100dp"
+                    android:gravity="center"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"
+                    android:layout_below="@+id/driver"
+                    android:horizontalSpacing="0dip"
+                    android:verticalSpacing="0dip">
+                </GridView>
+
+                <RelativeLayout
+                    android:id="@+id/driver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignRight="@+id/gridView1"
+                    android:layout_marginRight="20.0dp"
+                    android:layout_marginTop="5.0dp"
+                    android:background="@drawable/steering_icon"
+                    android:orientation="horizontal" >
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/seatLayoutUpper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seatLegendLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10.0dip"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomBarSeatSelection"
+        android:layout_width="fill_parent"
+        android:layout_height="49.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="#FFF" >
+        <RelativeLayout
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonborder">
+            <TextView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt1"
+                android:text="Seat Number :"
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:textStyle="italic"
+                />
+
+            <TextView
+                android:layout_width="240dp"
+                android:layout_below = "@id/txt1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="22dp"
+                android:layout_marginRight="22dp"
+                android:gravity="start"
+                android:id = "@+id/text"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:text="confirm"
+            android:textColor="#000"
+            android:textSize="18.0sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
+

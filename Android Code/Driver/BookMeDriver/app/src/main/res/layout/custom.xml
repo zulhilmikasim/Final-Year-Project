@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/checked"
+        android:id = "@+id/gif"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ticket validated"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:layout_gravity="bottom">
+        <Button
+            android:text="Cancel"
+            android:layout_width="0sp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNo"
+            android:background="@drawable/border"
+            />
+        <Button
+            android:text="OK"
+            android:layout_width="0sp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnYes"
+            android:background="@drawable/border"/>
+    </LinearLayout>
+</LinearLayout>

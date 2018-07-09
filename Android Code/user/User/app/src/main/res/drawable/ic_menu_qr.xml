@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="370dp"
+    android:height="370dp"
+    android:viewportWidth="370"
+    android:viewportHeight="370">
+
+    <group
+        android:translateX="40"
+        android:translateY="40">
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 0 H 10 V 10 H 0 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 10 0 H 20 V 10 H 10 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 0 H 30 V 10 H 20 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 0 H 40 V 10 H 30 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 0 H 50 V 10 H 40 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 50 0 H 60 V 10 H 50 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 0 H 70 V 10 H 60 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 0 H 90 V 10 H 80 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 0 H 100 V 10 H 90 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 0 H 110 V 10 H 100 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 0 H 130 V 10 H 120 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 0 H 160 V 10 H 150 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 0 H 170 V 10 H 160 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 0 H 180 V 10 H 170 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 0 H 190 V 10 H 180 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 0 H 200 V 10 H 190 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 0 H 210 V 10 H 200 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 0 H 230 V 10 H 220 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 0 H 240 V 10 H 230 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 0 H 250 V 10 H 240 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 0 H 260 V 10 H 250 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 0 H 270 V 10 H 260 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 0 H 280 V 10 H 270 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 0 H 290 V 10 H 280 V 0 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 10 H 10 V 20 H 0 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 10 H 70 V 20 H 60 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 10 H 90 V 20 H 80 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 10 H 100 V 20 H 90 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 10 H 110 V 20 H 100 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 10 H 120 V 20 H 110 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 10 H 130 V 20 H 120 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 10 H 150 V 20 H 140 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 10 H 160 V 20 H 150 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 10 H 180 V 20 H 170 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 10 H 230 V 20 H 220 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 10 H 290 V 20 H 280 V 10 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 20 H 10 V 30 H 0 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 20 H 30 V 30 H 20 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 20 H 40 V 30 H 30 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 20 H 50 V 30 H 40 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 20 H 70 V 30 H 60 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 20 H 140 V 30 H 130 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 20 H 150 V 30 H 140 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 20 H 160 V 30 H 150 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 20 H 190 V 30 H 180 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 20 H 210 V 30 H 200 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 20 H 230 V 30 H 220 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 20 H 250 V 30 H 240 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 20 H 260 V 30 H 250 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 20 H 270 V 30 H 260 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 20 H 290 V 30 H 280 V 20 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 30 H 10 V 40 H 0 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 30 H 30 V 40 H 20 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 30 H 40 V 40 H 30 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 30 H 50 V 40 H 40 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 30 H 70 V 40 H 60 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 30 H 90 V 40 H 80 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 30 H 110 V 40 H 100 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 30 H 120 V 40 H 110 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 30 H 180 V 40 H 170 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 30 H 210 V 40 H 200 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 30 H 230 V 40 H 220 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 30 H 250 V 40 H 240 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 30 H 260 V 40 H 250 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 30 H 270 V 40 H 260 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 30 H 290 V 40 H 280 V 30 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 40 H 10 V 50 H 0 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 40 H 30 V 50 H 20 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 40 H 40 V 50 H 30 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 40 H 50 V 50 H 40 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 40 H 70 V 50 H 60 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 40 H 110 V 50 H 100 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 40 H 130 V 50 H 120 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 40 H 140 V 50 H 130 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 40 H 200 V 50 H 190 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 40 H 230 V 50 H 220 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 40 H 250 V 50 H 240 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 40 H 260 V 50 H 250 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 40 H 270 V 50 H 260 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 40 H 290 V 50 H 280 V 40 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 50 H 10 V 60 H 0 V 50 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 50 H 70 V 60 H 60 V 50 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 50 H 100 V 60 H 90 V 50 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 50 H 120 V 60 H 110 V 50 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 50 H 130 V 60 H 120 V 50 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 50 H 150 V 60 H 140 V 50 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 50 H 180 V 60 H 170 V 50 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 50 H 200 V 60 H 190 V 50 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 50 H 230 V 60 H 220 V 50 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 50 H 290 V 60 H 280 V 50 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 60 H 10 V 70 H 0 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 10 60 H 20 V 70 H 10 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 60 H 30 V 70 H 20 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 60 H 40 V 70 H 30 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 60 H 50 V 70 H 40 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 50 60 H 60 V 70 H 50 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 60 H 70 V 70 H 60 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 60 H 90 V 70 H 80 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 60 H 110 V 70 H 100 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 60 H 130 V 70 H 120 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 60 H 150 V 70 H 140 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 60 H 170 V 70 H 160 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 60 H 190 V 70 H 180 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 60 H 210 V 70 H 200 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 60 H 230 V 70 H 220 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 60 H 240 V 70 H 230 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 60 H 250 V 70 H 240 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 60 H 260 V 70 H 250 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 60 H 270 V 70 H 260 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 60 H 280 V 70 H 270 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 60 H 290 V 70 H 280 V 60 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 70 H 90 V 80 H 80 V 70 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 70 H 120 V 80 H 110 V 70 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 70 H 130 V 80 H 120 V 70 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 70 H 140 V 80 H 130 V 70 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 70 H 150 V 80 H 140 V 70 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 70 H 160 V 80 H 150 V 70 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 70 H 170 V 80 H 160 V 70 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 70 H 180 V 80 H 170 V 70 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 70 H 190 V 80 H 180 V 70 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 70 H 200 V 80 H 190 V 70 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 80 H 10 V 90 H 0 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 80 H 30 V 90 H 20 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 80 H 40 V 90 H 30 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 50 80 H 60 V 90 H 50 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 80 H 70 V 90 H 60 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 70 80 H 80 V 90 H 70 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 80 H 100 V 90 H 90 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 80 H 120 V 90 H 110 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 80 H 140 V 90 H 130 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 80 H 150 V 90 H 140 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 80 H 160 V 90 H 150 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 80 H 170 V 90 H 160 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 80 H 180 V 90 H 170 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 80 H 190 V 90 H 180 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 80 H 230 V 90 H 220 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 80 H 260 V 90 H 250 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 80 H 280 V 90 H 270 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 80 H 290 V 90 H 280 V 80 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 90 H 40 V 100 H 30 V 90 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 90 H 50 V 100 H 40 V 90 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 90 H 130 V 100 H 120 V 90 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 90 H 180 V 100 H 170 V 90 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 90 H 190 V 100 H 180 V 90 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 90 H 200 V 100 H 190 V 90 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 90 H 220 V 100 H 210 V 90 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 90 H 230 V 100 H 220 V 90 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 90 H 240 V 100 H 230 V 90 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 90 H 250 V 100 H 240 V 90 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 90 H 290 V 100 H 280 V 90 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 100 H 50 V 110 H 40 V 100 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 100 H 70 V 110 H 60 V 100 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 70 100 H 80 V 110 H 70 V 100 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 100 H 120 V 110 H 110 V 100 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 100 H 150 V 110 H 140 V 100 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 100 H 170 V 110 H 160 V 100 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 100 H 180 V 110 H 170 V 100 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 100 H 270 V 110 H 260 V 100 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 100 H 280 V 110 H 270 V 100 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 110 H 10 V 120 H 0 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 10 110 H 20 V 120 H 10 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 110 H 30 V 120 H 20 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 110 H 40 V 120 H 30 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 110 H 50 V 120 H 40 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 50 110 H 60 V 120 H 50 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 70 110 H 80 V 120 H 70 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 110 H 90 V 120 H 80 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 110 H 120 V 120 H 110 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 110 H 130 V 120 H 120 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 110 H 140 V 120 H 130 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 110 H 150 V 120 H 140 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 110 H 160 V 120 H 150 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 110 H 190 V 120 H 180 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 110 H 210 V 120 H 200 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 110 H 220 V 120 H 210 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 110 H 230 V 120 H 220 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 110 H 240 V 120 H 230 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 110 H 250 V 120 H 240 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 110 H 260 V 120 H 250 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 110 H 290 V 120 H 280 V 110 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 10 120 H 20 V 130 H 10 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 120 H 40 V 130 H 30 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 120 H 50 V 130 H 40 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 50 120 H 60 V 130 H 50 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 120 H 70 V 130 H 60 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 120 H 90 V 130 H 80 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 120 H 110 V 130 H 100 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 120 H 130 V 130 H 120 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 120 H 160 V 130 H 150 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 120 H 180 V 130 H 170 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 120 H 210 V 130 H 200 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 120 H 260 V 130 H 250 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 120 H 270 V 130 H 260 V 120 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 130 H 10 V 140 H 0 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 10 130 H 20 V 140 H 10 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 130 H 30 V 140 H 20 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 130 H 40 V 140 H 30 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 130 H 50 V 140 H 40 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 70 130 H 80 V 140 H 70 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 130 H 90 V 140 H 80 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 130 H 100 V 140 H 90 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 130 H 110 V 140 H 100 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 130 H 140 V 140 H 130 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 130 H 160 V 140 H 150 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 130 H 170 V 140 H 160 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 130 H 200 V 140 H 190 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 130 H 210 V 140 H 200 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 130 H 230 V 140 H 220 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 130 H 280 V 140 H 270 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 130 H 290 V 140 H 280 V 130 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 10 140 H 20 V 150 H 10 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 140 H 40 V 150 H 30 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 140 H 50 V 150 H 40 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 140 H 70 V 150 H 60 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 70 140 H 80 V 150 H 70 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 140 H 90 V 150 H 80 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 140 H 100 V 150 H 90 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 140 H 110 V 150 H 100 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 140 H 150 V 150 H 140 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 140 H 170 V 150 H 160 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 140 H 190 V 150 H 180 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 140 H 200 V 150 H 190 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 140 H 220 V 150 H 210 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 140 H 240 V 150 H 230 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 140 H 260 V 150 H 250 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 140 H 270 V 150 H 260 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 140 H 280 V 150 H 270 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 140 H 290 V 150 H 280 V 140 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 150 H 10 V 160 H 0 V 150 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 150 H 30 V 160 H 20 V 150 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 150 H 40 V 160 H 30 V 150 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 150 H 100 V 160 H 90 V 150 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 150 H 110 V 160 H 100 V 150 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 150 H 120 V 160 H 110 V 150 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 150 H 140 V 160 H 130 V 150 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 150 H 220 V 160 H 210 V 150 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 150 H 230 V 160 H 220 V 150 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 150 H 280 V 160 H 270 V 150 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 160 H 10 V 170 H 0 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 160 H 30 V 170 H 20 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 160 H 70 V 170 H 60 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 70 160 H 80 V 170 H 70 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 160 H 90 V 170 H 80 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 160 H 130 V 170 H 120 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 160 H 170 V 170 H 160 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 160 H 190 V 170 H 180 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 160 H 220 V 170 H 210 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 160 H 240 V 170 H 230 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 160 H 250 V 170 H 240 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 160 H 280 V 170 H 270 V 160 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 170 H 30 V 180 H 20 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 170 H 40 V 180 H 30 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 50 170 H 60 V 180 H 50 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 170 H 90 V 180 H 80 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 170 H 110 V 180 H 100 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 170 H 120 V 180 H 110 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 170 H 130 V 180 H 120 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 170 H 140 V 180 H 130 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 170 H 160 V 180 H 150 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 170 H 240 V 180 H 230 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 170 H 270 V 180 H 260 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 170 H 280 V 180 H 270 V 170 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 10 180 H 20 V 190 H 10 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 180 H 30 V 190 H 20 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 180 H 50 V 190 H 40 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 50 180 H 60 V 190 H 50 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 180 H 70 V 190 H 60 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 180 H 90 V 190 H 80 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 180 H 100 V 190 H 90 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 180 H 120 V 190 H 110 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 180 H 160 V 190 H 150 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 180 H 170 V 190 H 160 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 180 H 220 V 190 H 210 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 180 H 230 V 190 H 220 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 180 H 240 V 190 H 230 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 180 H 260 V 190 H 250 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 180 H 270 V 190 H 260 V 180 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 190 H 10 V 200 H 0 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 10 190 H 20 V 200 H 10 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 190 H 30 V 200 H 20 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 190 H 40 V 200 H 30 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 50 190 H 60 V 200 H 50 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 70 190 H 80 V 200 H 70 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 190 H 110 V 200 H 100 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 190 H 160 V 200 H 150 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 190 H 170 V 200 H 160 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 190 H 180 V 200 H 170 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 190 H 190 V 200 H 180 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 190 H 210 V 200 H 200 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 190 H 220 V 200 H 210 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 190 H 240 V 200 H 230 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 190 H 250 V 200 H 240 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 190 H 270 V 200 H 260 V 190 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 200 H 10 V 210 H 0 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 200 H 30 V 210 H 20 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 50 200 H 60 V 210 H 50 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 200 H 70 V 210 H 60 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 70 200 H 80 V 210 H 70 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 200 H 90 V 210 H 80 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 200 H 130 V 210 H 120 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 200 H 140 V 210 H 130 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 200 H 160 V 210 H 150 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 200 H 170 V 210 H 160 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 200 H 180 V 210 H 170 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 200 H 190 V 210 H 180 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 200 H 200 V 210 H 190 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 200 H 210 V 210 H 200 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 200 H 220 V 210 H 210 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 200 H 230 V 210 H 220 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 200 H 240 V 210 H 230 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 200 H 250 V 210 H 240 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 200 H 260 V 210 H 250 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 200 H 270 V 210 H 260 V 200 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 210 H 90 V 220 H 80 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 210 H 100 V 220 H 90 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 210 H 110 V 220 H 100 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 210 H 120 V 220 H 110 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 210 H 140 V 220 H 130 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 210 H 150 V 220 H 140 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 160 210 H 170 V 220 H 160 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 210 H 190 V 220 H 180 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 210 H 200 V 220 H 190 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 210 H 210 V 220 H 200 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 210 H 250 V 220 H 240 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 210 H 260 V 220 H 250 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 210 H 270 V 220 H 260 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 210 H 280 V 220 H 270 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 210 H 290 V 220 H 280 V 210 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 220 H 10 V 230 H 0 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 10 220 H 20 V 230 H 10 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 220 H 30 V 230 H 20 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 220 H 40 V 230 H 30 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 220 H 50 V 230 H 40 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 50 220 H 60 V 230 H 50 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 220 H 70 V 230 H 60 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 220 H 90 V 230 H 80 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 220 H 110 V 230 H 100 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 220 H 120 V 230 H 110 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 220 H 140 V 230 H 130 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 220 H 180 V 230 H 170 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 220 H 190 V 230 H 180 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 220 H 200 V 230 H 190 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 220 H 210 V 230 H 200 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 220 H 230 V 230 H 220 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 220 H 250 V 230 H 240 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 220 H 260 V 230 H 250 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 220 H 280 V 230 H 270 V 220 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 230 H 10 V 240 H 0 V 230 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 230 H 70 V 240 H 60 V 230 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 230 H 90 V 240 H 80 V 230 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 230 H 100 V 240 H 90 V 230 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 230 H 110 V 240 H 100 V 230 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 230 H 130 V 240 H 120 V 230 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 230 H 160 V 240 H 150 V 230 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 230 H 200 V 240 H 190 V 230 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 230 H 210 V 240 H 200 V 230 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 230 H 250 V 240 H 240 V 230 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 230 H 280 V 240 H 270 V 230 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 240 H 10 V 250 H 0 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 240 H 30 V 250 H 20 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 240 H 40 V 250 H 30 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 240 H 50 V 250 H 40 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 240 H 70 V 250 H 60 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 240 H 100 V 250 H 90 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 240 H 110 V 250 H 100 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 240 H 120 V 250 H 110 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 240 H 130 V 250 H 120 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 240 H 150 V 250 H 140 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 170 240 H 180 V 250 H 170 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 240 H 210 V 250 H 200 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 240 H 220 V 250 H 210 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 220 240 H 230 V 250 H 220 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 240 H 240 V 250 H 230 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 240 H 250 V 250 H 240 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 240 H 260 V 250 H 250 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 240 H 270 V 250 H 260 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 240 H 280 V 250 H 270 V 240 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 250 H 10 V 260 H 0 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 250 H 30 V 260 H 20 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 250 H 40 V 260 H 30 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 250 H 50 V 260 H 40 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 250 H 70 V 260 H 60 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 250 H 90 V 260 H 80 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 250 H 100 V 260 H 90 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 140 250 H 150 V 260 H 140 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 250 H 160 V 260 H 150 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 250 H 220 V 260 H 210 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 250 H 240 V 260 H 230 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 250 H 250 V 260 H 240 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 250 H 260 V 260 H 250 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 250 H 270 V 260 H 260 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 250 H 290 V 260 H 280 V 250 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 260 H 10 V 270 H 0 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 260 H 30 V 270 H 20 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 260 H 40 V 270 H 30 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 260 H 50 V 270 H 40 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 260 H 70 V 270 H 60 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 260 H 90 V 270 H 80 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 260 H 100 V 270 H 90 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 260 H 120 V 270 H 110 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 130 260 H 140 V 270 H 130 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 260 H 200 V 270 H 190 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 260 H 240 V 270 H 230 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 260 260 H 270 V 270 H 260 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 280 260 H 290 V 270 H 280 V 260 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 270 H 10 V 280 H 0 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 270 H 70 V 280 H 60 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 270 H 100 V 280 H 90 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 270 H 110 V 280 H 100 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 110 270 H 120 V 280 H 110 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 270 H 130 V 280 H 120 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 150 270 H 160 V 280 H 150 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 190 270 H 200 V 280 H 190 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 270 H 210 V 280 H 200 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 270 H 220 V 280 H 210 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 270 H 240 V 280 H 230 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 270 H 250 V 280 H 240 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 250 270 H 260 V 280 H 250 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 270 H 280 V 280 H 270 V 270 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0 280 H 10 V 290 H 0 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 10 280 H 20 V 290 H 10 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 20 280 H 30 V 290 H 20 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 30 280 H 40 V 290 H 30 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 40 280 H 50 V 290 H 40 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 50 280 H 60 V 290 H 50 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 60 280 H 70 V 290 H 60 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 80 280 H 90 V 290 H 80 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 90 280 H 100 V 290 H 90 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 100 280 H 110 V 290 H 100 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 120 280 H 130 V 290 H 120 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 180 280 H 190 V 290 H 180 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 200 280 H 210 V 290 H 200 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 210 280 H 220 V 290 H 210 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 230 280 H 240 V 290 H 230 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 240 280 H 250 V 290 H 240 V 280 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 270 280 H 280 V 290 H 270 V 280 Z" />
+    </group>
+</vector>

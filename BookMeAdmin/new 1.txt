@@ -1,0 +1,127 @@
+var config = {
+    apiKey: "AIzaSyAkDvStRlQcf1Xrz3s5GXjQWQOEg3pwPuU",
+    authDomain: "retrieveddatabase.firebaseapp.com",
+    databaseURL: "https://retrieveddatabase.firebaseio.com",
+    projectId: "retrieveddatabase",
+    storageBucket: "retrieveddatabase.appspot.com",
+    messagingSenderId: "580272374784"
+  };
+  firebase.initializeApp(config);
+
+var db = firebase.database();
+
+//create review
+var scheduleForm = document.getElementById('scheduleForm');
+var hiddenId   = document.getElementById('sId');
+var departDate   = document.getElementById('departDate');
+var departTime = document.getElementById('departTime');
+var origin = document.getElementById('origin');
+var destination = document.getElementById('destination');
+var regnum = document.getElementById('regnum');
+var bname = document.getElementById('bname');
+var price = document.getElementById('price');
+var user_name   = document.getElementById('user_name');
+var age = document.getElementById('age');
+var address = document.getElementById('address');
+
+scheduleForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  if (!departDate.value || !departTime.value || !origin.value || !destination.value || !bname.value || !regnum.value || !price.value ||!user_name.value || !age.value || !address.value) return null
+
+  var id = hiddenId.value || Date.now()
+
+  db.ref('schedule/' + id).set({
+    departDate: departDate.value,
+    departTime: departTime.value,
+	origin : origin.value,
+	destination : destination.value,
+	regnum : regnum.value,
+	bname : bname.value,
+	price : price.value,
+	user_name: user_name.value,
+    age: age.value,
+	address : address.value
+	
+  });
+
+  departDate.value = '';
+  departTime.value  = '';
+  origin.value = '';
+  destination.value = '';
+  regnum.value = '';
+  bname.value = '';
+  price.value = '';
+  user_name.value = '';
+  age.value  = '';
+  address.value = '';
+  hiddenId.value = '';
+  
+  alert("Successfully added/edited");
+});
+
+//ready
+var reviews = document.getElementById('show');
+var reviewsRef = db.ref('/schedule');
+
+reviewsRef.on('child_added', (data) => {
+ var li = document.createElement('li')
+  li.id = data.key;
+  li.innerHTML = template(data.val())
+  reviews.appendChild(li);
+});
+
+reviewsRef.on('child_changed', (data) => {
+  var reviewNode = document.getElementById(data.key);
+  reviewNode.innerHTML = template(data.val());
+});
+
+reviewsRef.on('child_removed', (data) => {
+  var reviewNode = document.getElementById(data.key);
+  reviewNode.parentNode.removeChild(reviewNode);
+});
+
+//event listener
+reviews.addEventListener('click', (e) => {
+  var reviewNode = e.target.parentNode
+
+  // UPDATE REVEIW
+  if (e.target.classList.contains('edit')) {
+    departDate.value = reviewNode.querySelector('.departDate').innerText;
+    departTime.value  = reviewNode.querySelector('.departTime').innerText;
+	origin.value  = reviewNode.querySelector('.origin').innerText;
+	destination.value  = reviewNode.querySelector('.destination').innerText;
+	regnum.value  = reviewNode.querySelector('.regnum').innerText;
+	bname.value  = reviewNode.querySelector('.bname').innerText;
+	price.value  = reviewNode.querySelector('.price').innerText;
+	 user_name.value = reviewNode.querySelector('.user_name').innerText;
+    age.value  = reviewNode.querySelector('.age').innerText;
+	address.value  = reviewNode.querySelector('.address').innerText;
+    hiddenId.value = reviewNode.id;
+  }
+
+  // DELETE REVEIW
+  if (e.target.classList.contains('delete')) {
+    var id = reviewNode.id;
+    db.ref('schedule/' + id).remove();
+	alert("Successfully deleted");
+  }
+});
+
+function template({departDate, departTime, origin, destination, regnum, bname, price, user_name, age, contact, address}) {
+  return `
+  
+    <label>Depart Date </label><li class='departDate'>${departDate}</li>
+    <label>Depart Time </label><li class='departTime'>${departTime}</li>
+	<label>Origin </label><li class='origin'>${origin}</li>
+    <label>Destination </label><li class='destination'>${destination}</li>
+	<label>Bus Company Name </label><li class='bname'>${bname}</li>
+    <label>Bus Registration Number </label><li class='regnum'>${regnum}</li>
+	<label>Price(RM) </label><li class='price'>${price}</li>
+	<label>Name </label><li class='user_name'>${user_name}</li>
+    <label>Age </label><li class='age'>${age}</li>
+	<label>Address </label><li class='address'>${address}</li>
+    <button class='delete'>Delete</button>
+    <button class='edit'>Edit</button></br></br></br>
+  `
+};
